@@ -1,10 +1,10 @@
 ---
 layout: page
 title: introduction to problem solving with computers
-description: spring 2022
+description: teaching assistant - spring 2022
 img: 
-importance: 1
-category: private
+importance: 3
+category: university of massachusetts - amherst
 ---
 <!-- ---
 title: "COMPSCI 121: An Introduction to Problem Solving with Computers (Spring 2022)"

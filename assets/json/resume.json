@@ -1,18 +1,16 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Aidan O'Neill",
+    "label": "Data Scientist, Software Engineer and Product Manager",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "aidanoneill3776@gmail.com",
+    "phone": "(206) 769-0867",
+    "url": "https://aidanconnoroneill.github.io",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "10 S Dearborn Broadway St",
+      "city": "Chicago",
       "countryCode": "US",
-      "region": "California"
+      "region": "Illinois"
     },
     "profiles": [
       {
@@ -24,113 +22,162 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "JPMorgan Chase",
+      "position": "Product Manager",
+      "url": "https://www.jpmorganchase.com/",
+      "startDate": "2023-03-01",
+      "endDate": "Current",
+      "summary": "Serve as product manager for the data streaming platform which is estimated to bring $75M in value per annum to Chase as Chase moves away from on-premises data to to a cloud-based data infrastructure",
+      "highlights": [
+        "Facilitate the platform’s transformation from inception to a fully productionalized platform, in the process showcasing a deep understanding of the firm’s priorities, cloud technologies, and customer requirements",
+        "Work with developers and agility leaders to implement strategic changes resulting in measurable improvement in developer’s productivity, elevating my Scrum team’s efficiency from around 60% story point completion to above 90%",
+        "Act as the primary point of contact for all customer interactions, coordinating efforts across 12 teams and 50 people.  Ensure their technical requirements were captured and communicating the specifications for new features to the development team.  Debug customer pipelines using Gaia Kafka, Amazon S3, Amazon Athena and Kubernetes to facilitate their timely delivery to production",
+        "Create Hugo websites to maintain documentation targeted to executives, customers, developers and support personnel"
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Apple",
+      "position": "Software Engineering Intern",
+      "url": "https://www.apple.com/",
+      "startDate": "2022-06-01",
+      "endDate": "2022-09-01",
+      "summary": "Improved a regression testing system for machine learning tagger models used by the News App, decreasing the runtime for regression testing by a factor of 12x and eliminating pain points for model scientists",
+      "highlights": [
+        "Consolidated 5 PySpark jobs into 2 jobs and eliminated a daily Java cron improving run-time and reducing brittle inter-job dependencies by eliminating approx. 750,000 intermediate directories and files",
+        "Identified a bug in the taggers due to a lack of robustness to different encodings while validating the new system",
+        "Used Pyspark, Hadoop, Kube, Yaml, Rio and Artifactory; focused on efficient, reusable, and testable code"
+      ]
+    },
+    {
+      "name": "Amazon",
+      "position": "Data Science Intern",
+      "url": "https://www.amazon.com/",
+      "startDate": "2021-05-01",
+      "endDate": "2021-08-01",
+      "summary": "Developed a summarization backend which creates TLDRs for tax documents, saving Amazon approx. $1M per annum",
+      "highlights": [
+        "Used AWS Lambda, API Gateway, RDS, and S3 for an efficient, cheap, and easy-to-maintain backend",
+        "Collaborated with Amazon Tax specialists to understand how Amazon Tax previously generated TLDRs as well as to evaluate how useful state-of-the-art summarization techniques as compared to heuristic approaches would be to Amazon",
+        "Identified and addressed a critical encoding bug in tagger models",
+        "Created a website using React and following RESTful principles which allows non-developers to adapt the summarization algorithm, allowing Amazon Tax to easily improve and extend the summarization backend resources"
+      ]
+    },
+    {
+      "name": "Test Innovators",
+      "position": "Machine Learning Consultant",
+      "url": "https://www.testinnovators.com/",
+      "startDate": "2021-05-01",
+      "endDate": "2021-08-01",
+      "summary": "Built on deep learning literature on state-of-the-art architectures in NLP to automate essay grading",
+      "highlights": [
+        "Collaborated with the education and leaderships team to understand the scope and goals of the project as well as the development and data teams to facilitate the incorporation of the model to Test Innovator’s website",
+        "Used NLTK, Pytorch and Numpy on Google Colab"
+      ]
+    },
+    {
+      "name": "Davidson College Computer Science Department",
+      "position": "Research Assistant",
+      "url": "https://www.davidson.edu/academic-departments/mathematics-and-computer-science/computer-science-major-and-minor",
+      "startDate": "2020-06-01",
+      "endDate": "2020-08-01",
+      "summary": "Implemented an efficient, distributed agent that uses Monte Carlo Tree Search (MCTS) to find optimal moves in Hex",
+      "highlights": [
+        "Distributed MCTS using per-thread work queues on compute nodes scheduled by one controller node"
+      ]
+    },
+    {
+      "name": "Davidson Research Institute",
+      "position": "Research Fellow",
+      "url": "https://www.davidson.edu/academics/research-opportunities/undergraduate-research/davidson-research-initiative",
+      "startDate": "2019-06-01",
+      "endDate": "2020-08-01",
+      "summary": "Developed a multi-threaded library that facilitates high-performance computation across nodes using Message Passing Interface, atomic operations, allowing researchers to pass anonymous functions using RDMA between compute nodes"
+    },
+    {
+      "name": "Test Innovators",
+      "position": "Software Engineering Intern",
+      "url": "https://www.testinnovators.com/",
+      "startDate": "2018-06-01",
+      "endDate": "2018-12-01",
+      "summary": "Wrote a validator service in Python that runs on an AWS server, validating millions of test sections completed on the online test prep platform, to ensure that data-driven student recommendations are based only on valid data",
+      "highlights": [
+        "Collaborated with product, development, and leadership teams to understand the needs of Test Innovators",
+        "Optimized the service by interpreting data efficiently and minimizing communication between the validator and the SQL server, resulting in an algorithm that had previously taken weeks to run executing in less than an hour",
+        "Ensured code was readable for future developers and onboarded an engineer to the project upon internship completion"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
+      "institution": "University of Massachusetts Amherst",
+      "area": "Computer Science",
+      "studyType": "Masters",
+      "startDate": "2021-09-01",
+      "endDate": "2023-05-01",
+      "gpa": "3.79",
+      "courses": [
+        "Machine Learning",
+        "Algorithmic Fairness and Strategic Behavior",
+        "Algorithms for Data Science",
+        "Advanced Algorithms",
+        "Information Retrieval",
+        "Secure Distributed Systems",
+        "Neural Networks",
+        "Applied Numerical Optimization",
+        "Digital Forensic Systems"
+      ]
+    },
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "institution": "Davidson College",
+      "area": "Computer Science, Political Science",
+      "studyType": "Bachelor of Science, Cum Laude",
+      "startDate": "2016-09-01",
+      "endDate": "2020-05-01",
+      "gpa": "3.81 (Computer Science with Honors), 3.73 (Political Science)",
+      "courses": [
+        "Data Structures",
+        "Discrete Structures",
+        "Programming Languages",
+        "Networks and Systems",
+        "Computer Organization",
+        "Machine Reasoning",
+        "Distributed Data Structures",
+        "Database Systems",
+        "Analysis of Algorithms",
+        "Machine Learning",
+        "Linear and Discrete Optimization",
+        "Distributed Artificial Intelligence",
+        "Algorithmic Game Theory"
+      ]
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "Solutions Architect Associate",
+      "date": "2024-02-28",
+      "issuer": "AWS",
+      "url": "https://www.credly.com/badges/e8674a11-4854-4f30-ac95-f92966ccafca/public_url",
+      "icon": "fa-solid fa-amazon"
     }
   ],
-  "publications": [
+  "talks": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Distributed Artificial Intelligence",
+      "venue": "Annalen der Physik",
+      "releaseDate": "2018-08-01",
+      "summary": "Defended my undergraduate honors thesis on distributed artificial intelligence"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "High-Performance Distributed Computation",
+      "venue": "Davidson Research Institute",
+      "releaseDate": "2019-09-01",
+      "summary": "Presented a library of functions that performs high-performance computation across many compute nodes at a poster session"
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "On Error Free Transformations and Applications to Polynomial Equations",
+      "venue": "MathFest",
+      "releaseDate": "2018-08-01",
+      "summary": "Presented modiﬁcations of root ﬁnding methods in which we extend the working precision of both methods through ﬂoating-point techniques"
     }
   ],
   "skills": [
@@ -190,7 +237,10 @@
     {
       "name": "Quantum Computing",
       "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+      "highlights": [
+        "Quantum Teleportation",
+        "Quantum Cryptography"
+      ],
       "startDate": "2018-01-01",
       "endDate": "2018-01-01",
       "url": "https://example.com"
