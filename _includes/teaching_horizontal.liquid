@@ -1,0 +1,35 @@
+<div class="card-item col">
+  <a href="{% if teaching.redirect %}{{ teaching.redirect }}{% else %}{{ teaching.url | relative_url }}{% endif %}">
+    <div class="card hoverable">
+      <div class="row g-0">
+        {% if teaching.img %}
+          <div class="card-img col-md-6">
+            {% include figure.liquid loading="eager" path=teaching.img sizes="(min-width: 768px) 156px, 50vw" alt="teaching thumbnail" %}
+          </div>
+        {% endif %}
+        <div class="{% if teaching.img %}col-md-6{% else %}col-md-12{% endif %}">
+          <div class="card-body">
+            <h3 class="card-title text-lowercase">{{ teaching.title }}</h3>
+            <!-- Date line added below -->
+            <p class="card-text">{{ teaching.description }}</p>
+            <div class="row ml-1 mr-1 p-0">
+              {% if teaching.github %}
+                <div class="github-icon">
+                  <div class="icon" data-toggle="tooltip" title="Code Repository">
+                    <a href="{{ teaching.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+                  </div>
+                  {% if teaching.github_stars %}
+                    <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                      <i class="fa-solid fa-star"></i>
+                      <span id="{{ teaching.github_stars }}-stars"></span>
+                    </span>
+                  {% endif %}
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
