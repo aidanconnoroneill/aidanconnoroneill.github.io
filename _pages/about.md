@@ -2,24 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Data Scientist, Software Engineer and Product Manager
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: oneill_headshot.jpg
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>10 S Dearborn</p>
+    <p>Chicago, IL</p>
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-asdf Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I currently work as a Product Manager at JPMorgan Chase, where I apply my technical expertise to drive the team responsible for the Consumer and Community Banking data streaming platform.  
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am passionate about the intersection of finance and technology.  
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before working at Chase, I received my BS in Computer Science and Political Science from Davidson College and my MS in Computer Science from the University of Massachusetts Amherst.  I have enjoyed interning for both Apple (2022) and Amazon (2021), as well as consulting for Test Innovators as a data scientist (2020-2023).  
+
+My resume is available [here](https://aidanconnoroneill.github.io/assets/pdf/oneill_resume_Mar_2024.pdf).  Sample projects include [Allumette](https://github.com/aidanconnoroneill/Allumette), a system which greedily executes query execution plans on ephemeral resources, [Automated Essay Grading](https://github.com/aidanconnoroneill/LSTM_TI_ASAP), two automated essay graders which leverage autoencoders and LSTMs respectively, and [Envy Free Course Assignment](https://github.com/aidanconnoroneill/EFCourseAssignment), a set of proofs and code on how to allocate courses to students fairly.  
