@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Data Scientist, Software Engineer and Product Manager
+subtitle: Data scientist, software engineer and product manager
 
 profile:
   align: right
