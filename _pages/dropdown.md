@@ -1,9 +1,9 @@
----
+<!-- ---
 layout: page
 title: submenus
 nav: true
 nav_order: 8
-dropdown: true
+dropdown: false
 # children:
 #   - title: publications
 #     permalink: /publications/
@@ -13,4 +13,4 @@ dropdown: true
 #   - title: divider
 #   - title: blog
 #     permalink: /blog/
----
+--- -->

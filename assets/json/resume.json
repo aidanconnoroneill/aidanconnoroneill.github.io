@@ -26,7 +26,6 @@
       "position": "Product Manager",
       "url": "https://www.jpmorganchase.com/",
       "startDate": "2023-03-01",
-      "endDate": "Current",
       "summary": "Serve as product manager for the data streaming platform which is estimated to bring $75M in value per annum to Chase as Chase moves away from on-premises data to to a cloud-based data infrastructure",
       "highlights": [
         "Facilitate the platform’s transformation from inception to a fully productionalized platform, in the process showcasing a deep understanding of the firm’s priorities, cloud technologies, and customer requirements",
@@ -68,7 +67,7 @@
       "url": "https://www.testinnovators.com/",
       "startDate": "2021-05-01",
       "endDate": "2021-08-01",
-      "summary": "Built on deep learning literature on state-of-the-art architectures in NLP to automate essay grading",
+      "summary": "Automated essay grading by building on deep learning literature on state-of-the-art architectures in NLP",
       "highlights": [
         "Collaborated with the education and leaderships team to understand the scope and goals of the project as well as the development and data teams to facilitate the incorporation of the model to Test Innovator’s website",
         "Used NLTK, Pytorch and Numpy on Google Colab"
@@ -154,7 +153,7 @@
   "certificates": [
     {
       "name": "Solutions Architect Associate",
-      "date": "2024-02-28",
+      "date": "2024-02",
       "issuer": "Amazon Web Services",
       "url": "https://www.credly.com/badges/e8674a11-4854-4f30-ac95-f92966ccafca/public_url",
       "icon": "fa-brands fa-aws"
@@ -163,8 +162,8 @@
   "talks": [
     {
       "name": "Distributed Artificial Intelligence",
-      "venue": "Annalen der Physik",
-      "releaseDate": "2018-08-01",
+      "venue": "Davidson College Computer Science Department",
+      "releaseDate": "2020-05-01",
       "summary": "Defended my undergraduate honors thesis on distributed artificial intelligence"
     },
     {
@@ -224,53 +223,28 @@
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "English",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Spanish",
+      "fluency": "Proficient",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Rock Climbing",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Rock Climbing"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
+      "name": "Beekeeping"
+    },
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": [
-        "Quantum Teleportation",
-        "Quantum Cryptography"
-      ],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Piano"
+    },
+    {
+      "name": "Ultimate Frisbee"
     }
   ]
 }
