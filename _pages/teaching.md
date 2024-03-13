@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 3
 display_categories: [private, university of massachusetts - amherst, davidson college]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/teaching.md -->
