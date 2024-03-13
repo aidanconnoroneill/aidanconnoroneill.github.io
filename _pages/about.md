@@ -8,9 +8,6 @@ profile:
   align: right
   image: oneill_headshot.jpg
   image_circular: true # crops the image to make it circular
-  more_info: >
-    <p>10 S Dearborn</p>
-    <p>Chicago, IL</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
