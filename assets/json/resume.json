@@ -189,7 +189,9 @@
         "Python",
         "C",
         "Java",
-        "MySQL"
+        "MySQL",
+        "HTML",
+        "CSS"
       ]
     },
     {
@@ -217,7 +219,8 @@
         "AWS S3",
         "Hadoop",
         "Kubernetes",
-        "Artifactory"
+        "Artifactory",
+        "Bootstrap"
       ]
     }
   ],
