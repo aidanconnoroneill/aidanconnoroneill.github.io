@@ -718,7 +718,7 @@ footer.sticky-bottom {
     }
 
     h2.category {
-      margin-top: 1rem; // Reduced spacing for mobile devices
+      margin-top: 0.5rem; // Reduced spacing for mobile devices
       margin-bottom: 0.5rem; // Reduced spacing for mobile devices
     }
   }
@@ -1173,6 +1173,13 @@ nav[data-toggle="toc"] {
 
 #toc-sidebar {
   z-index: 1;
+}
+
+@media (max-width: 768px) {
+  #toc-sidebar {
+    display: none;
+    /* or visibility: hidden; */
+  }
 }
 
 .echarts {
