@@ -507,6 +507,7 @@ footer.sticky-bottom {
   }
 }
 
+
 // Blog
 
 .header-bar {
@@ -703,6 +704,23 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: left;
+  }
+
+  // Media query for mobile devices
+  @media (max-width: 768px) {
+    .card-item {
+      margin-bottom: 5px; // Reduced spacing for mobile devices
+    }
+
+    .grid-sizer,
+    .grid-item {
+      margin-bottom: 5px; // Reduced spacing for mobile devices
+    }
+
+    h2.category {
+      margin-top: 1rem; // Reduced spacing for mobile devices
+      margin-bottom: 0.5rem; // Reduced spacing for mobile devices
+    }
   }
 }
 
