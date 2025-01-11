@@ -23,15 +23,15 @@
   "work": [
     {
       "name": "JPMorgan Chase",
-      "position": "Product Manager",
+      "position": "Software Engineer",
       "url": "https://www.jpmorganchase.com/",
       "startDate": "2023-03-01",
-      "summary": "Serve as product manager for the data streaming platform which is estimated to bring $75M in value per annum to Chase as Chase moves away from on-premises data to to a cloud-based data infrastructure",
+      "summary": "leverage my technical expertise to develop and optimize communication platforms for Consumer and Community Banking customers",
       "highlights": [
-        "Facilitate the platform’s transformation from inception to a fully productionalized platform, in the process showcasing a deep understanding of the firm’s priorities, cloud technologies, and customer requirements",
-        "Work with developers and agility leaders to implement strategic changes resulting in measurable improvement in developer’s productivity, elevating my Scrum team’s efficiency from around 60% story point completion to above 90%",
-        "Act as the primary point of contact for all customer interactions, coordinating efforts across 12 teams and 50 people.  Ensure their technical requirements were captured and communicating the specifications for new features to the development team.  Debug customer pipelines using Gaia Kafka, Amazon S3, Amazon Athena and Kubernetes to facilitate their timely delivery to production",
-        "Create Hugo websites to maintain documentation targeted to executives, customers, developers and support personnel"
+        "Led a database migration for 10M records and hundreds of SPROCs to Java, boosting accuracy from 50% to over 99%",
+        "Collaborated with QA engineers to effectively triage issues in lower environments, resolving most within the same day",
+        "Mentored junior and senior team members on new codebases and processes, allowing the team to have a greater impact across Chase Communications",
+        "Supervised production releases outside of business hours to minimize customer impact, carefully checking for errors, exceptions and anomalies to ensure smooth deployments"
       ]
     },
     {
