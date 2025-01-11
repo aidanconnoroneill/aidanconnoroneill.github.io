@@ -1,71 +1,76 @@
-FROM ubuntu:latest
+FROM ruby:slim
+
+# uncomment these if you are having this issue with the build:
+# /usr/local/bundle/gems/jekyll-4.3.4/lib/jekyll/site.rb:509:in `initialize': Permission denied @ rb_sysopen - /srv/jekyll/.jekyll-cache/.gitignore (Errno::EACCES)
+# ARG GROUPID=901
+# ARG GROUPNAME=ruby
+# ARG USERID=901
+# ARG USERNAME=jekyll
+
 ENV DEBIAN_FRONTEND noninteractive
 
-LABEL MAINTAINER="Amir Pourmand"
+LABEL authors="Amir Pourmand,George Araújo" \
+      description="Docker image for al-folio academic template" \
+      maintainer="Amir Pourmand"
 
-# Install necessary system dependencies
-RUN apt-get update -y && apt-get install -y --no-install-recommends \
-    software-properties-common \
-    locales \
-    imagemagick \
-    build-essential \
-    zlib1g-dev \
-    libv8-dev \
-    g++ \
-    wget \
-    jupyter-nbconvert \
-    inotify-tools \
-    procps && \
-    apt-get clean && rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
+# uncomment these if you are having this issue with the build:
+# /usr/local/bundle/gems/jekyll-4.3.4/lib/jekyll/site.rb:509:in `initialize': Permission denied @ rb_sysopen - /srv/jekyll/.jekyll-cache/.gitignore (Errno::EACCES)
+# add a non-root user to the image with a specific group and user id to avoid permission issues
+# RUN groupadd -r $GROUPNAME -g $GROUPID && \
+#     useradd -u $USERID -m -g $GROUPNAME $USERNAME
 
-# Add Brightbox PPA and install Ruby 3.3
-RUN apt-add-repository ppa:brightbox/ruby-ng -y && \
-    apt-get update -y && \
+# install system dependencies
+RUN apt-get update -y && \
     apt-get install -y --no-install-recommends \
-    ruby3.3 \
-    ruby3.3-dev \
-    bundler && \
-    apt-get clean && rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
+        build-essential \
+        curl \
+        git \
+        imagemagick \
+        inotify-tools \
+        locales \
+        nodejs \
+        procps \
+        python3-pip \
+        zlib1g-dev && \
+    pip --no-cache-dir install --upgrade --break-system-packages nbconvert
 
-# Set Ruby 3.3 as the default Ruby version
-RUN update-alternatives --install /usr/bin/ruby ruby /usr/bin/ruby3.3 1 && \
-    update-alternatives --set ruby /usr/bin/ruby3.3 && \
-    update-alternatives --install /usr/bin/gem gem /usr/bin/gem3.3 1 && \
-    update-alternatives --set gem /usr/bin/gem3.3
+# clean up
+RUN apt-get clean && \
+    apt-get autoremove && \
+    rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*  /tmp/*
 
-# Verify Ruby and Bundler versions
-RUN ruby --version && gem --version && bundler --version
-
-# Configure locales
+# set the locale
 RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
     locale-gen
 
-# Set environment variables
-ENV LANG=en_US.UTF-8 \
+# set environment variables
+ENV EXECJS_RUNTIME=Node \
+    JEKYLL_ENV=production \
+    LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
-    LC_ALL=en_US.UTF-8 \
-    JEKYLL_ENV=production
+    LC_ALL=en_US.UTF-8
 
-# Install Jekyll and Bundler
-RUN gem install jekyll bundler
-
-# Create Jekyll working directory
+# create a directory for the jekyll site
 RUN mkdir /srv/jekyll
 
-# Add Gemfile and install gems
+# copy the Gemfile and Gemfile.lock to the image
+ADD Gemfile.lock /srv/jekyll
 ADD Gemfile /srv/jekyll
 
+# set the working directory
 WORKDIR /srv/jekyll
 
-# Pre-install mini_racer to handle native extension issues
-RUN gem install mini_racer --platform=ruby && \
-    bundle install --no-cache
+# install jekyll and dependencies
+RUN gem install --no-document jekyll bundler
+RUN bundle install --no-cache
 
-# Expose port for Jekyll server
 EXPOSE 8080
 
-# Add entry point script
 COPY bin/entry_point.sh /tmp/entry_point.sh
 
-# Set default command
+# uncomment this if you are having this issue with the build:
+# /usr/local/bundle/gems/jekyll-4.3.4/lib/jekyll/site.rb:509:in `initialize': Permission denied @ rb_sysopen - /srv/jekyll/.jekyll-cache/.gitignore (Errno::EACCES)
+# set the ownership of the jekyll site directory to the non-root user
+# USER $USERNAME
+
 CMD ["/tmp/entry_point.sh"]
