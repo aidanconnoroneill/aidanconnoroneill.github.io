@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Aidan O'Neill",
-    "title": "Data Scientist, Software Engineer and Product Manager",
+    "title": "Data Scientist and Software Engineer",
     "image": "",
     "email": "aidanoneill3776@gmail.com",
     "phone": "(206) 769-0867",
@@ -238,16 +238,20 @@
   ],
   "interests": [
     {
-      "name": "Rock Climbing"
+      "name": "Rock Climbing",
+      "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Beekeeping"
+      "name": "Beekeeping",
+      "icon": "fa-solid fa-bee"
     },
     {
-      "name": "Piano"
+      "name": "Piano",
+      "icon": "fa-solid fa-beer"
     },
     {
-      "name": "Ultimate Frisbee"
+      "name": "Ultimate Frisbee",
+      "icon": "fa-solid fa-tag"
     }
   ]
 }

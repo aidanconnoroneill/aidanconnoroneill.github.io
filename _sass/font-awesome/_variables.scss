@@ -3,7 +3,7 @@
 
 $fa-css-prefix: fa !default;
 $fa-style: 900 !default;
-$fa-style-family: "Font Awesome 6 Free" !default;
+$fa-style-family: "Font Awesome 6 Pro" !default;
 
 $fa-display: inline-block !default;
 
@@ -31,7 +31,7 @@ $fa-sizes: (
   "lg": $fa-size-scale-lg,
   "xl": $fa-size-scale-xl,
   "2xl": $fa-size-scale-2xl,
-) !default;
+  ) !default;
 
 $fa-li-width: 2em !default;
 $fa-li-margin: $fa-li-width * fa-divide(5, 4) !default;
@@ -42,7 +42,8 @@ $fa-primary-opacity: 1 !default;
 $fa-secondary-opacity: 0.4 !default;
 
 $fa-stack-vertical-align: middle !default;
-$fa-stack-width: ($fa-fw-width * 2) !default;
+$fa-stack-width: (
+  $fa-fw-width * 2) !default;
 $fa-stack-z-index: auto !default;
 
 $fa-font-display: block !default;
@@ -122,6 +123,7 @@ $fa-var-angle-double-down: \f103;
 $fa-var-users-rectangle: \e594;
 $fa-var-people-roof: \e537;
 $fa-var-people-line: \e534;
+$fa-var-bee: \e0b2;
 $fa-var-beer-mug-empty: \f0fc;
 $fa-var-beer: \f0fc;
 $fa-var-diagram-predecessor: \e477;
@@ -2584,6 +2586,7 @@ $fa-icons: (
   "people-line": $fa-var-people-line,
   "beer-mug-empty": $fa-var-beer-mug-empty,
   "beer": $fa-var-beer,
+  "bee": $fa-var-bee,
   "diagram-predecessor": $fa-var-diagram-predecessor,
   "arrow-up-long": $fa-var-arrow-up-long,
   "long-arrow-up": $fa-var-long-arrow-up,
