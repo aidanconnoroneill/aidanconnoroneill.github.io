@@ -30,7 +30,7 @@
       "highlights": [
         "Led a database migration for 10M records and hundreds of SPROCs to Java, boosting accuracy from 50% to over 99%",
         "Collaborated with QA engineers to effectively triage issues in lower environments, resolving most within the same day",
-        "Mentored junior and senior team members on new codebases and processes, allowing the team to have a greater impact across Chase Communications",
+        "Mentored team members on new codebases and processes, allowing the team to have a greater impact across Chase Communications",
         "Supervised production releases outside of business hours to minimize customer impact, carefully checking for errors, exceptions and anomalies to ensure smooth deployments"
       ]
     },
@@ -239,7 +239,7 @@
   "interests": [
     {
       "name": "Rock Climbing",
-      "icon": "fa-solid fa-tag"
+      "icon": "fa-solid fa-mountains"
     },
     {
       "name": "Beekeeping",
@@ -247,11 +247,11 @@
     },
     {
       "name": "Piano",
-      "icon": "fa-solid fa-beer"
+      "icon": "fa-solid fa-piano"
     },
     {
       "name": "Ultimate Frisbee",
-      "icon": "fa-solid fa-tag"
+      "icon": "fa-solid fa-flying-disc"
     }
   ]
 }

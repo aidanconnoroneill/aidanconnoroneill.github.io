@@ -176,6 +176,16 @@ Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github
 </tr>
 </table>
 
+## Docker commands -- 
+
+docker compose up -d
+
+docker exec -it <container_name> /bin/bash
+
+bundle install
+
+bundle exec jekyll serve
+
 ## Lighthouse PageSpeed Insights
 
 ### Desktop
@@ -194,6 +204,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
 
 - [al-folio](#al-folio)
   - [User community](#user-community)
+  - [Docker commands --](#docker-commands---)
   - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
     - [Desktop](#desktop)
     - [Mobile](#mobile)
