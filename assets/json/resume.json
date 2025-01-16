@@ -26,12 +26,13 @@
       "position": "Software Engineer",
       "url": "https://www.jpmorganchase.com/",
       "startDate": "2023-03-01",
-      "summary": "leverage my technical expertise to develop and optimize communication platforms for Consumer and Community Banking customers",
+      "summary": "Leverage my technical expertise to develop and optimize communication platforms for Consumer and Community Banking customers",
       "highlights": [
         "Led a database migration for 10M records and hundreds of SPROCs to Java, boosting accuracy from 50% to over 99%",
         "Collaborated with QA engineers to effectively triage issues in lower environments, resolving most within the same day",
         "Mentored team members on new codebases and processes, allowing the team to have a greater impact across Chase Communications",
-        "Supervised production releases outside of business hours to minimize customer impact, carefully checking for errors, exceptions and anomalies to ensure smooth deployments"
+        "Supervised production releases outside of business hours to minimize customer impact, carefully checking for errors, exceptions and anomalies to ensure smooth deployments",
+        "Acted as the primary point of contact for all data streaming platform customers, coordinating efforts across 12 teams and 50 people.  Ensured technical requirements were captured and communicated the specifications for new features to the development team.  Debugged customer pipelines using Gaia Kafka, Amazon S3, Amazon Athena and Kubernetes to facilitate their timely delivery to production"
       ]
     },
     {
@@ -67,10 +68,10 @@
       "url": "https://www.testinnovators.com/",
       "startDate": "2020-11-01",
       "endDate": "2023-03-01",
-      "summary": "Automated essay grading by building on deep learning literature on state-of-the-art architectures in NLP",
+      "summary": "Built on deep learning literature on autoencoder architectures in NLP to automate essay grading",
       "highlights": [
-        "Collaborated with the education and leaderships team to understand the scope and goals of the project as well as the development and data teams to facilitate the incorporation of the model to Test Innovator’s website",
-        "Used NLTK, Pytorch and Numpy on Google Colab"
+        "Analyzed various interventions to assess their impact on students, informing business strategies and sales efforts",
+        "Used NLTK, Tensorflow, Seaborn, Scikit-Learn, Pandas and Numpy on Google Colab"
       ]
     },
     {
